@@ -1,7 +1,23 @@
 ## Java-Timezone
 
 The following time file can be used to get the timezones from the various functions i have included. 
+### How it Works
 
+Basically, You pass a
+
+
+//Example Template
+```
+ public static String timezone() {
+  time obtainDate = new time();
+  TimeZone timeZone = TimeZone.getTimeZone("US/Eastern");
+  String dateFormat = "MMMM dd,yyyy";
+  String timeFormat = "hh:mm:ss a \nzzzz";
+  return String.format("\n\nTodays Date: %s\nCurrent Time: %s", obtainDate.getTodayDate(dateFormat, timeZone), obtainDate.getCurrentTime(timeFormat, timeZone));
+
+ }
+```
+More timezone ID's can be found here: https://garygregory.wordpress.com/2013/06/18/what-are-the-java-timezone-ids/
 
 ### Below is the implementation via my discord 
 
