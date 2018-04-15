@@ -5,18 +5,25 @@ import java.util.Date;
 import java.util.TimeZone;
 
 public class time {
+ //Example Template
+ /*
+  public static String timezone() {
+   time obtainDate = new time();
+   TimeZone timeZone = TimeZone.getTimeZone("US/Eastern"); 
+   String dateFormat = "MMMM dd,yyyy";
+   String timeFormat = "hh:mm:ss a \nzzzz";
+   return String.format("\n\nTodays Date: %s\nCurrent Time: %s", obtainDate.getTodayDate(dateFormat, timeZone), obtainDate.getCurrentTime(timeFormat, timeZone));
+  }
+  */
 
-//Example Template
-/*
- public static String timezone() {
+ public String getZoneInfo(String args) {
   time obtainDate = new time();
-  TimeZone timeZone = TimeZone.getTimeZone("US/Eastern"); // https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  TimeZone timeZone = TimeZone.getTimeZone(args);
   String dateFormat = "MMMM dd,yyyy";
   String timeFormat = "hh:mm:ss a \nzzzz";
   return String.format("\n\nTodays Date: %s\nCurrent Time: %s", obtainDate.getTodayDate(dateFormat, timeZone), obtainDate.getCurrentTime(timeFormat, timeZone));
-
+  // Additional Timezone ID's https://garygregory.wordpress.com/2013/06/18/what-are-the-java-timezone-ids/ 
  }
- */
 
  public static String UsEast() {
   time obtainDate = new time();
@@ -32,7 +39,6 @@ public class time {
   String dateFormat = "MMMM dd,yyyy";
   String timeFormat = "hh:mm:ss a \nzzzz";
   return String.format("\n\nTodays Date: %s\nCurrent Time: %s", obtainDate.getTodayDate(dateFormat, timeZone), obtainDate.getCurrentTime(timeFormat, timeZone));
-
  }
 
  public String AU() {
@@ -50,7 +56,7 @@ public class time {
   String timeFormat = "hh:mm:ss a \nzzzz";
   return String.format("\n\nTodays Date: %s\nCurrent Time: %s", obtainDate.getTodayDate(dateFormat, timeZone), obtainDate.getCurrentTime(timeFormat, timeZone));
  }
- 
+
  public String Haw() {
   time obtainDate = new time();
   TimeZone timeZone = TimeZone.getTimeZone("US/Hawaii");
@@ -84,7 +90,6 @@ public class time {
  }
 
  public String toString() {
-  return String.format(Haw() + UsWest()+ UsEast() + EU() + AU());
+  return String.format(Haw() + UsWest() + UsEast() + EU() + AU());
  }
-
 }
