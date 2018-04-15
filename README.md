@@ -5,4 +5,4 @@ The following time file can be used to get the timezones from the various functi
 
 ###Implementation
 
-![alt text](https://imgur.com/a/heP8q.jpg)
+![alt text](https://i.imgur.com/ZOQTiRh.png)
