@@ -4,12 +4,15 @@ The following time file can be used to get the timezones from the various functi
 ### How it Works
 
 Basically, you can either pass a timezone via this method.
+
 ![BotImp](https://i.imgur.com/cNZbBHd.png)
 
 or create a method like this..
+
 ![BotImp](https://i.imgur.com/EAdnNzH.png)
 
 and call it from main or toString()
+
 ![BotImp](https://i.imgur.com/YTRs7S1.png)
 
 //Example Template
