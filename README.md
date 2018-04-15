@@ -3,6 +3,6 @@
 The following time file can be used to get the timezones from the various functions i have included. 
 
 
-###Implementation
+### Below is the implementation via my discord bot
 
-![alt text](https://i.imgur.com/ZOQTiRh.png)
+![BotImp](https://i.imgur.com/ZOQTiRh.png)
