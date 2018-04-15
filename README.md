@@ -7,6 +7,8 @@ Basically, you can either pass a timezone via this method.
 
 ![BotImp](https://i.imgur.com/cNZbBHd.png)
 
+Timezone ID's can be found here: https://garygregory.wordpress.com/2013/06/18/what-are-the-java-timezone-ids/
+
 or create a method like this..
 
 ![BotImp](https://i.imgur.com/EAdnNzH.png)
@@ -26,7 +28,7 @@ and call it from main or toString()
 
  }
 ```
-More timezone ID's can be found here: https://garygregory.wordpress.com/2013/06/18/what-are-the-java-timezone-ids/
+
 
 ### Below is the implementation via my discord 
 
